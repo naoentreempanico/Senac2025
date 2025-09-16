@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+
+<body>
+    <h1>Trabalhando com mídias</h1>
+    <p>Para inserir uma música MP3 em sua página web, o arquivo DEVE estar na pasta raiz do projeto(site)</p>
+    <audio controls>
+        <source src="midias/metalica_nothing.mp3">
+    </audio>
+    <hr>
+    <hr>
+    <p>Veja a video a seguir:</p>
+    <video controls>
+        <source src="midias/london.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <hr>
+    <!--lengendas em videos-->
+    <video controls>
+        <source src="midias/pink-floyd.mp4" type="video/mp4">
+        <track kind="subtitles" srclang="pp-br" src="midias/legenda-ptbr.vtt" label="Português Brasil" default>
+    </video>
+
+    <hr>
+    <hr>
+    <video controls>
+        <source src="midias/pink-floyd.mp4" type="video/mp4">
+        <track kind="subtitles" srclang="pp-br" src="midias/legenda-en.vtt" label="Inglês" default>
+    </video>
+    <hr>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/Mrs1BQMm4S8?si=hAwrZVroeseSTntD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>
