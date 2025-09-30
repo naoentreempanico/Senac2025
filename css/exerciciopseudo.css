@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+ h1{
+    text-align: center;
+    background-color: pink;
+    color: black;
+ }
+ 
+
+ 
+ .titulo{
+    text-align: center;
+    margin: 25px;
+    color: red;
+    font-size: x-large;
+    
+
+ }
+
+ p,ul{
+    margin-left: 1%;
+    
+ }
+ ul::selection{
+    color: greenyellow;
+ }
+ p::selection{
+    color: greenyellow;
+ }
+ ul::first-letter{
+    color: red;
+    font-size: x-large;
+ }
+ p::first-letter{
+    color: red;
+    font-size: x-large;
+ }
+ #fim::before{
+    content: url(/img/humor.png);
+  
+ }
+ .titulo:active{
+       background-color: pink;
+       color: palevioletred;
+ }

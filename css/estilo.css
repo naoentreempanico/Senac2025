@@ -1,0 +1,53 @@
+/*CSS EXTERNO- para que funcione é necessario fazer o link no HTML*/
+
+h1{
+    background-color: rgba(red, green, blue, alpha);
+    padding: 5px;
+    font-family: cursive ;
+    text-align: center;
+}
+/*Comportamento de link a ser clicado.*/
+ a:link{
+    color: #6cff00;
+}
+
+a:visited{
+    color: #000;
+    background-color: yellow;
+
+}
+/*Comportamento de passar sobre*/
+a:hover{
+    background-color: chartreuse;
+    color: blue;
+}
+/*Comportamento de link quando está ativo*/
+a:active{
+    background-color: #fc0e0e;
+    color: blue;
+}
+p::first-line{
+    color: red;
+    font-variant: small-caps;
+}
+p::first-letter{
+    color: blue;
+    font-size: xx-large;
+}
+
+h3::before{
+    content: url(/img/beetlejuice_mini.jpg);
+
+}
+    
+
+
+/* Este pseudo-elemento é especifico para lista, pois modifiva as "bulets ou mardores" da lista*/
+::marker{
+    color:#6cff00;
+}
+/* Este pseudo-elemento modifica o que o usuário está selecionado*/
+::selection{
+    color: rgb(42, 17, 185);
+    background-color: yellow;
+}
