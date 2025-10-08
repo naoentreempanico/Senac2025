@@ -9,17 +9,20 @@ body{
     text-align: center;
     background-color: pink;
     color: black;
+    border-radius: 2%;
+    box-shadow: inset;
+   
  }
- 
-
- 
  .titulo{
     text-align: center;
-    margin: 25px;
+    margin: 30px;
     color: red;
     font-size: x-large;
-    
 
+ }
+.titulo:active{
+   background-color: pink;
+   color: palevioletred;
  }
 
  p,ul{
@@ -44,7 +47,4 @@ body{
     content: url(/img/humor.png);
   
  }
- .titulo:active{
-       background-color: pink;
-       color: palevioletred;
- }
+
