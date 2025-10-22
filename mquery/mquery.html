@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@media</title>
+    <style>
+        /*Mobile frist*/
+        main {
+            background-color: pink;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .tudo {
+            background-color: aqua;
+            width: 500px;
+        }
+
+        .menuitem {
+            background-color: white;
+        }
+
+        #menulist {
+            list-style: none;
+        }
+
+        @media only screen and (min-width:325px) {
+            main {
+                background-color: blue;
+            }
+
+        }
+
+        @media only screen and (min-width:768px) {
+            main {
+                background-color: red;
+            }
+
+            #menulist,
+            .topnav {
+                display: flex;
+            }
+        }
+        @media only screen and (min-width:1000px) {
+           main{ background-color: chocolate;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>@media</h1>
+        <p>
+            Regra, introduzida em CSS3, possibilitou redefinir regas de estilo diferentes para diferente tipos de midia
+        </p>
+        <p>As consultas de midia pdem ser usadas para verificar muitas coisas, como:</p>
+        <ul>
+            <li>Largura e altura da viewport</li>
+            <li> Orientação da viewport (paisagem ou retrato)</li>
+            <li>Resolução</li>
+        </ul>
+        <p>usando consultas de midias são uma tecnica popular para oferecer um estilo personalizado folha para desktops,
+            laptops, tablets e smartphones.</p>
+        <p>Exemplo</p>
+        <div class="tudo">
+            <div id="list">
+                <ul id="menulist">
+                    <li class="menuitem">Coneteúdo 1</li>
+                    <li class="menuitem">Coneteúdo 2</li>
+                    <li class="menuitem">Coneteúdo 3</li>
+                    <li class="menuitem">Coneteúdo 4</li>
+                    <li class="menuitem">Coneteúdo 5</li>
+                </ul>
+            </div>
+        </div>
+        <div id="texto">
+            <h1>Conteúdo de quebra</h1>
+            <p>Quando determinamos as medisas em pixel das orientações de páginas, estamos falando dos chamados
+                "breckpoints"</p>
+        </div>
+        <p>Menu</p>
+        <div class="topnav">
+            <p><a href="#">HOME</a></p>
+            <p><a href="#">MENU</a></p>
+            <p><a href="#">CAONTATO</a></p>
+    </main>
+    </div>
+
+</body>
+
+</html>
