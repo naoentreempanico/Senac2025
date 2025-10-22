@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.importante{
+   /* background-color: pink; */
+   font-size: large;
+   margin: 25px;
+   text-align: center;
+    
+
+}
+li{
+     list-style-type: none;
+}
+h1{
+    /* text-align: center; */
+}
+a:hover{
+color: rgb(223, 130, 145);
+
+}
+a{
+ text-decoration: none;
+ font-size: large;
+ font-family: 'Courier New', Courier, monospace;
+}
+.titulo{
+    text-align: center;
+}
+img{
+    /* flex-direction: column;
+    align-items: center; */
+    /* height: 100px; */
+    margin: 10px;
+}
+
+figure{
+  
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+
+.texto{
+    margin: 25px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ @media only screen and (max-width:715px){
+    figure{
+        display: block;
+        height: 100%;
+   
+  
+ }
+    
+}
